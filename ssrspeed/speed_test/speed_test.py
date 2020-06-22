@@ -165,7 +165,7 @@ class SpeedTest(object):
 				source_ip=config["ntt"]["internal_ip"],
 				source_port=sport,
 				include_internal=True,
-				sock=s
+				# sock=s
 			)
 			return t, eip, eport, sip, sport
 		except:
